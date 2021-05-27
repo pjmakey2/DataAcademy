@@ -1,3 +1,6 @@
+"""
+author: pjmakey2@gmail.com PJL
+"""
 import argparse
 parser = argparse.ArgumentParser(description='Triangulos')
 parser.add_argument('--base', dest='base', nargs='?',help='Base of the triangulo', required=True, type=int)
